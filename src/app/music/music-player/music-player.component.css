@@ -1,0 +1,48 @@
+.player {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.player div{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.player .player__backward button, .player .player__forward button {
+	background: transparent;
+	border: 1px solid rgb(21,96,150);
+	border-radius: 100%;
+	color: rgb(24,107,160);
+	font-size: 35px;
+	height: 75px;
+	outline: none;
+	width: 75px;
+}
+
+.player .player__background button {
+	border-left: none;
+}
+
+.player .player__forward button {
+	border-right: none;
+}
+
+.player .player__main button:hover, .player .player__backward button:hover, .player .player__forward button:hover {
+	border: 1px solid rgba(21,96,150,0.7);
+	color: rgba(24,107,160,0.7);
+}
+
+.player .player__main {
+	border: 1px solid rgb(21,96,150);
+}
+
+.player .player__main button {
+	background: transparent;
+	border: none;
+	color: rgb(21,96,150);
+	font-size: 35px;
+	height: 75px;
+	outline: none;
+	width: 75px;
+}

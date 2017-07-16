@@ -1,0 +1,16 @@
+.artwork {
+	display: inline-block;
+	margin: 5px 0 2px 5px;
+	width: 32px;
+}
+.text {
+	float: right;
+	font-size: 18px;
+	margin: 10px 10px 0 0;
+}
+.truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 400px;
+}
